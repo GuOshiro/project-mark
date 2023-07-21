@@ -3,9 +3,9 @@ import Header from "../Header";
 
 export default function Layout({ children }: { children: ReactElement }) {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-200 h-screen">
       <Header />
-      <main className="mx-2 bg-white h-screen rounded-2xl">{children}</main>
+      <main className="m-2 bg-white rounded-2xl">{children}</main>
     </div>
   );
 }

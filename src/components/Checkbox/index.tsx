@@ -1,6 +1,6 @@
 export default function Checkbox({
   title,
-  checked,
+  checked = false,
   selected,
 }: {
   title?: string;
@@ -23,7 +23,7 @@ export default function Checkbox({
           aria-describedby="comments-description"
           name="comments"
           type="checkbox"
-          checked={checked}
+          defaultChecked={checked}
           className="h-4 w-4 rounded border-gray-300 "
         />
       </div>

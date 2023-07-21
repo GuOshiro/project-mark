@@ -3,5 +3,119 @@
 @tailwind utilities;
 
 * {
-  font-family: 'Archivo Narrow';
+  font-family: "Archivo Narrow";
+}
+
+.bg-s-1-regular {
+  background-color: #dabfff;
+}
+.bg-s-1-darker {
+  background-color: #46426d;
+}
+.text-s-1-darker {
+  color: #46426d;
+}
+.bg-s-1-light {
+  background-color: #e9d9ff;
+}
+.border-s-1-light {
+  border-color: #e9d9ff;
+}
+.bg-s-1-lighter {
+  background-color: #f7f1ff;
+}
+
+.bg-s-2-regular {
+  background-color: #ffd6b3;
+}
+.bg-s-2-darker {
+  background-color: #66421f;
+}
+.text-s-2-darker {
+  color: #66421f;
+}
+.bg-s-2-light {
+  background-color: #ffe4cc;
+}
+.border-s-2-light {
+  border-color: #ffe4cc;
+}
+.bg-s-2-lighter {
+  background-color: #fef6ef;
+}
+
+.bg-s-3-regular {
+  background-color: #99d1ff;
+}
+.bg-s-3-darker {
+  background-color: #003a66;
+}
+.text-s-3-darker {
+  color: #003a66;
+}
+.bg-s-3-light {
+  background-color: #bfe3ff;
+}
+.border-s-3-light {
+  border-color: #bfe3ff;
+}
+.bg-s-3-lighter {
+  background-color: #e6f4ff;
+}
+
+.bg-s-4-regular {
+  background-color: #81dde5;
+}
+.bg-s-4-darker {
+  background-color: #2a5154;
+}
+.text-s-4-darker {
+  color: #2a5154;
+}
+.bg-s-4-light {
+  background-color: #aaecf2;
+}
+.border-s-4-light {
+  border-color: #aaecf2;
+}
+.bg-s-4-lighter {
+  background-color: #def5f7;
+}
+
+.bg-s-5-regular {
+  background-color: #ffbfd2;
+}
+.bg-s-5-darker {
+  background-color: #773a47;
+}
+.text-s-5-darker {
+  color: #773a47;
+}
+.bg-s-5-light {
+  background-color: #FFD9E4;
+}
+.border-s-5-light {
+  border-color: #FFD9E4;
+}
+.bg-s-5-lighter {
+  background-color: #FFF2F6;
+}
+
+.bg-s-6-regular {
+  background-color: #cbd5e0;
+}
+.bg-s-6-darker {
+  background-color: #4a5568;
+}
+.text-s-6-darker {
+  color: #4a5568;
+}
+.bg-s-6-light {
+  background-color: #e2e8f0;
+}
+.border-s-6-light {
+  border-color: #e2e8f0;
+}
+.bg-s-6-lighter {
+  background-color: #f2f7fa;
 }

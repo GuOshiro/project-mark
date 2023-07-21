@@ -7,7 +7,7 @@ export default function Tabs({
     title: string;
     description: string;
     action: () => void;
-    active: boolean;
+    active?: boolean;
   }>;
 }) {
   return (
