@@ -1,0 +1,22 @@
+.triangle-container {
+  /* Position relative to make the pseudo-element position relative to this container */
+  position: relative;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 50px 50px 50px; /* Adjust the 50px values to change the triangle size */
+  border-color: transparent transparent #f00 transparent; /* Adjust the color here */
+
+  /* Use the pseudo-element to create the triangle */
+  &::before {
+    content: "";
+    position: absolute;
+    top: -30px; /* Adjust this value to control the triangle position */
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 45px 45px 45px; /* Adjust the 45px values to change the triangle size */
+    border-color: transparent transparent #fff transparent; /* Adjust the color here */
+  }
+}
