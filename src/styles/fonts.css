@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Archivo Narrow';
+  src: url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap');
+}
+
+@font-face {
+  font-family: 'Archivo Narrow';
+  font-weight: 400;
+  src: url('ArchivoNarrow-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Archivo Narrow';
+  font-weight: 700;
+  src: url('ArchivoNarrow-VariableFont_wght.ttf') format('truetype');
+}
