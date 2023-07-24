@@ -127,7 +127,10 @@
     height: 0;
     border-style: solid;
     border-width: 10px 10px 0 10px;
-    border-color: #bfcfe0 transparent transparent transparent;
+    border-color: #2462D1 transparent transparent transparent;
+    transition-timing-function: ease-in-out;
+    border-radius: 10px;
+    transition-delay: 0.2s;
   }
   &::after {
     content: "";
@@ -137,15 +140,10 @@
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 10px 10px 0 10px;
+    border-width: 10px 10px 2px 10px;
+    border-radius: 10px;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
     border-color: white transparent transparent transparent;
-  }
-  &:hover {
-    &::before {
-      border-color: #bfcfe0 transparent transparent transparent;
-    }
-    &::after {
-      border-color: #bfcfe0 transparent transparent transparent;
-    }
   }
 }

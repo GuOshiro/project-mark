@@ -29,7 +29,7 @@ export default function Onboarding({}) {
   ];
   return (
     <div className="flex flex-col items-center justify-center py-10">
-      <h1 className="text-3xl font-bold text-gray-800">
+      <h1 className="text-3xl body-font font-archivo-narrow font-bold text-gray-800">
         Please select the type of sales pipeline that best fits to you company
       </h1>
       <div className="flex flex-row items-center justify-center py-10">
